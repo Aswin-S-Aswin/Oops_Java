@@ -23,6 +23,7 @@ public class Method6{
         codeio.setValues("codeio", 71);
         codeio.display();
 
+
         System.out.println(codeio.rollno);   // allowed (default access)
         System.out.println(codeio.getValue()); // correct way for private data
 
