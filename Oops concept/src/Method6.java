@@ -34,5 +34,7 @@ public class Method6{
         System.out.println(std);
 //        System.out.println(codeio.name);
 
+
+
     }
 }
