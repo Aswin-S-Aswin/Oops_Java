@@ -1,9 +1,19 @@
-public class Method12 {
+//Single level Inheritance
+class Inheritance{
     public static void main(String[] args) {
-        int year = 2026;
-        while (year<=2026){
-            year++;
-            System.out.println(year);
-        }
+        Son s = new Son();
+        System.out.println(s.gender);
+        s.print();
     }
+}
+
+class Father{
+    char gender = 'm';
+    void print(){
+        System.out.println("Parent Class");
+    }
+}
+
+class Son extends Father{
+
 }
