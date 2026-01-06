@@ -2,7 +2,8 @@ class Method16 {
     final int x = 10;
 
     void print(){
-        x
+        int y;
+        y = 20;
     }
 }
 class main{
