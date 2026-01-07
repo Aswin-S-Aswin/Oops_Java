@@ -3,6 +3,7 @@ interface Father2{
     abstract void talk();
 }
 
+//abstract is used for must be used condition
 interface Mother2{
     abstract void call();
     abstract void talk();
